@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+streamlit
+langchain
+PyPDF2
+faiss-cpu
+sentence-transformers

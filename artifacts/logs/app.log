@@ -1,0 +1,34 @@
+2025-05-20 17:43:50,508 - rag_chatbot - INFO - Attempting extraction with PyMuPDF
+2025-05-20 17:43:50,999 - rag_chatbot - INFO - PyMuPDF extraction successful
+2025-05-20 17:43:51,002 - rag_chatbot - INFO - Extracted and cleaned 2754 characters from PDF
+2025-05-20 17:43:52,816 - rag_chatbot - INFO - Split text into 4 chunks
+2025-05-20 17:43:53,380 - rag_chatbot - INFO - Initializing HuggingFace embeddings
+2025-05-20 17:43:56,926 - rag_chatbot - INFO - Responses saved to artifacts/responses/qa_samples.txt
+2025-05-20 17:44:01,862 - rag_chatbot - INFO - Attempting extraction with PyMuPDF
+2025-05-20 17:44:01,900 - rag_chatbot - INFO - PyMuPDF extraction successful
+2025-05-20 17:44:01,906 - rag_chatbot - INFO - Extracted and cleaned 2754 characters from PDF
+2025-05-20 17:44:01,912 - rag_chatbot - INFO - Split text into 4 chunks
+2025-05-20 17:44:01,913 - rag_chatbot - INFO - Initializing HuggingFace embeddings
+2025-05-20 17:44:19,759 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-20 17:44:19,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-20 17:44:19,760 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-20 17:44:19,761 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-20 17:44:36,632 - rag_chatbot - INFO - Creating FAISS vector store with 4 chunks
+2025-05-20 17:44:37,594 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-05-20 17:44:37,597 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-05-20 17:44:37,599 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-20 17:44:38,242 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-20 17:44:38,265 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-20 17:44:38,273 - rag_chatbot - INFO - Vector store created successfully
+2025-05-20 17:44:39,039 - rag_chatbot - INFO - Creating FAISS vector store with 4 chunks
+2025-05-20 17:44:39,527 - rag_chatbot - INFO - Vector store created successfully
+2025-05-20 17:46:33,930 - rag_chatbot - INFO - Attempting extraction with PyMuPDF
+2025-05-20 17:46:34,045 - rag_chatbot - INFO - PyMuPDF extraction successful
+2025-05-20 17:46:34,047 - rag_chatbot - INFO - Extracted and cleaned 2754 characters from PDF
+2025-05-20 17:46:34,052 - rag_chatbot - INFO - Split text into 4 chunks
+2025-05-20 17:46:34,053 - rag_chatbot - INFO - Initializing HuggingFace embeddings
+2025-05-20 17:46:34,072 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-20 17:46:34,073 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-20 17:46:47,048 - rag_chatbot - INFO - Creating FAISS vector store with 4 chunks
+2025-05-20 17:46:47,370 - rag_chatbot - INFO - Vector store created successfully
