@@ -6,6 +6,7 @@ chromadb
 faiss-cpu
 langchain_google_genai
 streamlit
+langchain-community
 langchain
 PyPDF2
 faiss-cpu
